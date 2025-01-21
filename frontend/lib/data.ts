@@ -4,8 +4,6 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import placeholder from "../public/placeholder.jpg";
 
-// const placeholderPic = "/placeholder.png";
-
 export const links = [
   {
     name: "Home",
