@@ -2,11 +2,12 @@
 
 import { motion } from 'framer-motion'
 import React from 'react'
+import SectionHeading from './section-heading';
 
 export default function About() {
   return (
     <motion.section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'>
-        <h2 className='text-3xl font-medium capitalize mb-8'>About me</h2>
+        <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
         After graduating with a degree in{" "}
         <span className="font-medium">German</span>, I decided to pursue my
