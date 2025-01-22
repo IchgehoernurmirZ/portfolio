@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import React, { useEffect } from "react";
+import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "../lib/hooks";
 
@@ -21,7 +21,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
+        After graduating with a bachelor's degree in{" "}
         <span className="font-medium">German</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}

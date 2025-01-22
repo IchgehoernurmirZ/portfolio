@@ -28,12 +28,12 @@ export default function Contact() {
 
       <form className="mt-10 flex flex-col">
         <input
-          className="h-14 px-4 rounded-lg borderBlack"
+          className="h-14 px-4 rounded-lg border border-black/10k"
           type="email"
           placeholder="Your email📪"
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4"
+          className="h-52 my-3 rounded-lg border !border-black/10 p-4"
           placeholder="Your message📝"
         />
         <button
