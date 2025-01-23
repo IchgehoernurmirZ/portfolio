@@ -14,6 +14,8 @@ export const sendEmail = async (formData: FormData) => {
   if (!validateString(message, 500) || !validateString(senderEmail, 5000)) {
     throw new Error("Invalid form data");
   }
+
+  let data;
   try {
     await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
@@ -30,4 +32,8 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
+
+  return {
+    data,
+  };
 };
