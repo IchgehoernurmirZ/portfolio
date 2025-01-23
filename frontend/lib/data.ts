@@ -1,8 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaCar } from "react-icons/fa";
 import placeholder from "../public/placeholder.jpg";
+import AINarrator from "../public/AINarrator.jpg";
+import nft from "../public/nft.png";
 
 export const links = [
   {
@@ -33,28 +35,31 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Master's in Information Systems",
+    company: "Northeastern University",
+    location: "Toronto, ON",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Related courses: Software Engineering, Application Engineering, Web Design, Program Structure and Algorithms, Database Design",
     icon: React.createElement(LuGraduationCap), //since it's a .ts file, can't write component directly
-    date: "2019",
+    date: "2023 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "App and Eco System Intern",
+    company: "Volkswagen(CARIAD)",
+    location: "Beijing, China",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed and maintained an error management toolchain, improving issue tracking and resolution efficiency.",
+    icon: React.createElement(FaCar), //since it's a .ts file, can't write component directly
+    date: "20024.05 - 2024.08",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    company: "Thoughtworks",
+    location: "Wuhan, China",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a full-stack developer for 1 year in an Agile environment.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
   },
 ] as const;
 
@@ -62,23 +67,33 @@ export const projectsData = [
   {
     title: "Recommendation Platform for Walmart",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "JavaScript", "CSS", "Python", "Flask"],
+      "A recommendation platform to optimize item placement in Walmart stores. I was the full-stack developer",
+    tags: ["React", "JavaScript", "CSS", "Python", "Flask", "PostgreSQL"],
     imageUrl: placeholder,
   },
   {
     title: "Porsche AI Narrator",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Java", "Redux"],
-    imageUrl: placeholder,
+      "An AI-powered text-to-speech platform for Porsche. It features audio file saving, tone, pitch, and speed adjustments, and supports multiple languages.",
+    tags: ["React", "TypeScript", "Java", "MySQL", "Spring Boot", "AWS"],
+    imageUrl: AINarrator,
   },
   {
     title: "NFT Marketplace",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: placeholder,
+      "A decentralized marketplace for minting, buying and selling NFTs.",
+    tags: [
+      "React",
+      "JavaScript",
+      "Bootstrap",
+      "SQL",
+      "jQuery",
+      "Node.js",
+      "Express.js",
+      "REST",
+      "PostgreSQL",
+    ],
+    imageUrl: nft,
   },
 ] as const;
 
@@ -92,14 +107,17 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
+  "MySQL",
   "Python",
   "Django",
+  "Flask",
   "Framer Motion",
+  "Kubernetes",
+  "AWS",
+  "Docker",
+  "Redis",
 ] as const;
