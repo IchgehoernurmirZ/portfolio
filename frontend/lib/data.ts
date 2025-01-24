@@ -39,7 +39,7 @@ export const experiencesData = [
     company: "Northeastern University",
     location: "Toronto, ON",
     description:
-      "Related courses: Software Engineering, Application Engineering, Web Design, Program Structure and Algorithms, Database Design",
+      "Relevant courses: Software Engineering, Application Engineering, Web Design, Program Structure and Algorithms, Database Design",
     icon: React.createElement(LuGraduationCap), //since it's a .ts file, can't write component directly
     date: "2023 - Present",
   },
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "Developed and maintained an error management toolchain, improving issue tracking and resolution efficiency.",
     icon: React.createElement(FaCar), //since it's a .ts file, can't write component directly
-    date: "20024.05 - 2024.08",
+    date: "2024.05 - 2024.08",
   },
   {
     title: "Full-Stack Developer",
